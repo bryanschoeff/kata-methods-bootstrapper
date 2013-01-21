@@ -1,0 +1,9 @@
+class Fake<%= class_name  %>
+  
+  <% methods.each do |method| %>
+  def <%= method.name %> do
+    raise NotImplementedError.new("You need to implement Fake<%= "#{class_name}.#{method.name}"  %>")
+  end
+  <% end %>
+
+end

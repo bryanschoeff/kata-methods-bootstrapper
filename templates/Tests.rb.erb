@@ -2,7 +2,7 @@ require "minitest/autorun"
 
 describe "<%= "Fake#{class_name}" %>" do
   before do
-    @list = SortedList.new
+    @list = <%= class_name  %>.new
   end
 
   <% methods.each do |method| %>
