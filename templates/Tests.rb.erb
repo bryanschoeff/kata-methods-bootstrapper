@@ -1,0 +1,13 @@
+require "minitest/autorun"
+
+describe "<%= "Fake#{class_name}" %>" do
+  before do
+    @list = SortedList.new
+  end
+
+  <% methods.each do |method| %>
+  it "supports <%= method.name %>" do
+    # implement test for <%= method.name %>  
+  end
+  <% end %>
+end
