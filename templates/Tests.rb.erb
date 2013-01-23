@@ -1,6 +1,6 @@
 require "minitest/autorun"
 
-describe "<%= "Fake#{class_name}" %>" do
+describe "<%= "#{class_name}" %>" do
   before do
     @list = <%= class_name  %>.new
   end

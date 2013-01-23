@@ -6,6 +6,10 @@ class Kata
     @methods = methods
   end
 
+  def file_name
+    @class_name.downcase
+  end
+
   def get_binding
     binding
   end

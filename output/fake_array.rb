@@ -1,400 +1,440 @@
 class FakeArray
   
   
-  def [] do
-    raise NotImplementedError.new("You need to implement FakeArray.[]")
+  def & do
+    raise NotImplementedError.new("You need to implement FakeArray.&")
   end
   
-  def try_convert do
-    raise NotImplementedError.new("You need to implement FakeArray.try_convert")
+  def * do
+    raise NotImplementedError.new("You need to implement FakeArray.*")
   end
   
-  def allocate do
-    raise NotImplementedError.new("You need to implement FakeArray.allocate")
+  def + do
+    raise NotImplementedError.new("You need to implement FakeArray.+")
   end
   
-  def new do
-    raise NotImplementedError.new("You need to implement FakeArray.new")
+  def - do
+    raise NotImplementedError.new("You need to implement FakeArray.-")
   end
   
-  def superclass do
-    raise NotImplementedError.new("You need to implement FakeArray.superclass")
+  def << do
+    raise NotImplementedError.new("You need to implement FakeArray.<<")
   end
   
-  def freeze do
-    raise NotImplementedError.new("You need to implement FakeArray.freeze")
+  def []= do
+    raise NotImplementedError.new("You need to implement FakeArray.[]=")
   end
   
-  def === do
-    raise NotImplementedError.new("You need to implement FakeArray.===")
+  def all? do
+    raise NotImplementedError.new("You need to implement FakeArray.all?")
   end
   
-  def == do
-    raise NotImplementedError.new("You need to implement FakeArray.==")
+  def any? do
+    raise NotImplementedError.new("You need to implement FakeArray.any?")
   end
   
-  def <=> do
-    raise NotImplementedError.new("You need to implement FakeArray.<=>")
+  def assoc do
+    raise NotImplementedError.new("You need to implement FakeArray.assoc")
   end
   
-  def < do
-    raise NotImplementedError.new("You need to implement FakeArray.<")
+  def at do
+    raise NotImplementedError.new("You need to implement FakeArray.at")
   end
   
-  def <= do
-    raise NotImplementedError.new("You need to implement FakeArray.<=")
+  def chunk do
+    raise NotImplementedError.new("You need to implement FakeArray.chunk")
   end
   
-  def > do
-    raise NotImplementedError.new("You need to implement FakeArray.>")
+  def clear do
+    raise NotImplementedError.new("You need to implement FakeArray.clear")
   end
   
-  def >= do
-    raise NotImplementedError.new("You need to implement FakeArray.>=")
+  def collect do
+    raise NotImplementedError.new("You need to implement FakeArray.collect")
   end
   
-  def to_s do
-    raise NotImplementedError.new("You need to implement FakeArray.to_s")
+  def collect! do
+    raise NotImplementedError.new("You need to implement FakeArray.collect!")
   end
   
-  def included_modules do
-    raise NotImplementedError.new("You need to implement FakeArray.included_modules")
+  def collect_concat do
+    raise NotImplementedError.new("You need to implement FakeArray.collect_concat")
   end
   
-  def include? do
-    raise NotImplementedError.new("You need to implement FakeArray.include?")
+  def combination do
+    raise NotImplementedError.new("You need to implement FakeArray.combination")
   end
   
-  def name do
-    raise NotImplementedError.new("You need to implement FakeArray.name")
+  def compact do
+    raise NotImplementedError.new("You need to implement FakeArray.compact")
   end
   
-  def ancestors do
-    raise NotImplementedError.new("You need to implement FakeArray.ancestors")
+  def compact! do
+    raise NotImplementedError.new("You need to implement FakeArray.compact!")
   end
   
-  def instance_methods do
-    raise NotImplementedError.new("You need to implement FakeArray.instance_methods")
+  def concat do
+    raise NotImplementedError.new("You need to implement FakeArray.concat")
   end
   
-  def public_instance_methods do
-    raise NotImplementedError.new("You need to implement FakeArray.public_instance_methods")
+  def count do
+    raise NotImplementedError.new("You need to implement FakeArray.count")
   end
   
-  def protected_instance_methods do
-    raise NotImplementedError.new("You need to implement FakeArray.protected_instance_methods")
+  def cycle do
+    raise NotImplementedError.new("You need to implement FakeArray.cycle")
   end
   
-  def private_instance_methods do
-    raise NotImplementedError.new("You need to implement FakeArray.private_instance_methods")
+  def delete do
+    raise NotImplementedError.new("You need to implement FakeArray.delete")
   end
   
-  def constants do
-    raise NotImplementedError.new("You need to implement FakeArray.constants")
+  def delete_at do
+    raise NotImplementedError.new("You need to implement FakeArray.delete_at")
   end
   
-  def const_get do
-    raise NotImplementedError.new("You need to implement FakeArray.const_get")
+  def delete_if do
+    raise NotImplementedError.new("You need to implement FakeArray.delete_if")
   end
   
-  def const_set do
-    raise NotImplementedError.new("You need to implement FakeArray.const_set")
+  def detect do
+    raise NotImplementedError.new("You need to implement FakeArray.detect")
   end
   
-  def const_defined? do
-    raise NotImplementedError.new("You need to implement FakeArray.const_defined?")
+  def drop do
+    raise NotImplementedError.new("You need to implement FakeArray.drop")
   end
   
-  def const_missing do
-    raise NotImplementedError.new("You need to implement FakeArray.const_missing")
+  def drop_while do
+    raise NotImplementedError.new("You need to implement FakeArray.drop_while")
   end
   
-  def class_variables do
-    raise NotImplementedError.new("You need to implement FakeArray.class_variables")
+  def each do
+    raise NotImplementedError.new("You need to implement FakeArray.each")
   end
   
-  def remove_class_variable do
-    raise NotImplementedError.new("You need to implement FakeArray.remove_class_variable")
+  def each_cons do
+    raise NotImplementedError.new("You need to implement FakeArray.each_cons")
   end
   
-  def class_variable_get do
-    raise NotImplementedError.new("You need to implement FakeArray.class_variable_get")
+  def each_entry do
+    raise NotImplementedError.new("You need to implement FakeArray.each_entry")
   end
   
-  def class_variable_set do
-    raise NotImplementedError.new("You need to implement FakeArray.class_variable_set")
+  def each_index do
+    raise NotImplementedError.new("You need to implement FakeArray.each_index")
   end
   
-  def class_variable_defined? do
-    raise NotImplementedError.new("You need to implement FakeArray.class_variable_defined?")
+  def each_slice do
+    raise NotImplementedError.new("You need to implement FakeArray.each_slice")
   end
   
-  def public_constant do
-    raise NotImplementedError.new("You need to implement FakeArray.public_constant")
+  def each_with_index do
+    raise NotImplementedError.new("You need to implement FakeArray.each_with_index")
   end
   
-  def private_constant do
-    raise NotImplementedError.new("You need to implement FakeArray.private_constant")
+  def each_with_object do
+    raise NotImplementedError.new("You need to implement FakeArray.each_with_object")
   end
   
-  def module_exec do
-    raise NotImplementedError.new("You need to implement FakeArray.module_exec")
+  def empty? do
+    raise NotImplementedError.new("You need to implement FakeArray.empty?")
   end
   
-  def class_exec do
-    raise NotImplementedError.new("You need to implement FakeArray.class_exec")
+  def entries do
+    raise NotImplementedError.new("You need to implement FakeArray.entries")
   end
   
-  def module_eval do
-    raise NotImplementedError.new("You need to implement FakeArray.module_eval")
+  def fetch do
+    raise NotImplementedError.new("You need to implement FakeArray.fetch")
   end
   
-  def class_eval do
-    raise NotImplementedError.new("You need to implement FakeArray.class_eval")
+  def fill do
+    raise NotImplementedError.new("You need to implement FakeArray.fill")
   end
   
-  def method_defined? do
-    raise NotImplementedError.new("You need to implement FakeArray.method_defined?")
+  def find do
+    raise NotImplementedError.new("You need to implement FakeArray.find")
   end
   
-  def public_method_defined? do
-    raise NotImplementedError.new("You need to implement FakeArray.public_method_defined?")
+  def find_all do
+    raise NotImplementedError.new("You need to implement FakeArray.find_all")
   end
   
-  def private_method_defined? do
-    raise NotImplementedError.new("You need to implement FakeArray.private_method_defined?")
+  def find_index do
+    raise NotImplementedError.new("You need to implement FakeArray.find_index")
   end
   
-  def protected_method_defined? do
-    raise NotImplementedError.new("You need to implement FakeArray.protected_method_defined?")
+  def first do
+    raise NotImplementedError.new("You need to implement FakeArray.first")
   end
   
-  def public_class_method do
-    raise NotImplementedError.new("You need to implement FakeArray.public_class_method")
+  def flat_map do
+    raise NotImplementedError.new("You need to implement FakeArray.flat_map")
   end
   
-  def private_class_method do
-    raise NotImplementedError.new("You need to implement FakeArray.private_class_method")
+  def flatten do
+    raise NotImplementedError.new("You need to implement FakeArray.flatten")
   end
   
-  def autoload do
-    raise NotImplementedError.new("You need to implement FakeArray.autoload")
+  def flatten! do
+    raise NotImplementedError.new("You need to implement FakeArray.flatten!")
   end
   
-  def autoload? do
-    raise NotImplementedError.new("You need to implement FakeArray.autoload?")
+  def grep do
+    raise NotImplementedError.new("You need to implement FakeArray.grep")
   end
   
-  def instance_method do
-    raise NotImplementedError.new("You need to implement FakeArray.instance_method")
+  def group_by do
+    raise NotImplementedError.new("You need to implement FakeArray.group_by")
   end
   
-  def public_instance_method do
-    raise NotImplementedError.new("You need to implement FakeArray.public_instance_method")
+  def index do
+    raise NotImplementedError.new("You need to implement FakeArray.index")
   end
   
-  def nil? do
-    raise NotImplementedError.new("You need to implement FakeArray.nil?")
+  def inject do
+    raise NotImplementedError.new("You need to implement FakeArray.inject")
   end
   
-  def =~ do
-    raise NotImplementedError.new("You need to implement FakeArray.=~")
+  def insert do
+    raise NotImplementedError.new("You need to implement FakeArray.insert")
   end
   
-  def !~ do
-    raise NotImplementedError.new("You need to implement FakeArray.!~")
+  def join do
+    raise NotImplementedError.new("You need to implement FakeArray.join")
   end
   
-  def eql? do
-    raise NotImplementedError.new("You need to implement FakeArray.eql?")
+  def keep_if do
+    raise NotImplementedError.new("You need to implement FakeArray.keep_if")
   end
   
-  def hash do
-    raise NotImplementedError.new("You need to implement FakeArray.hash")
+  def last do
+    raise NotImplementedError.new("You need to implement FakeArray.last")
   end
   
-  def class do
-    raise NotImplementedError.new("You need to implement FakeArray.class")
+  def length do
+    raise NotImplementedError.new("You need to implement FakeArray.length")
   end
   
-  def singleton_class do
-    raise NotImplementedError.new("You need to implement FakeArray.singleton_class")
+  def map do
+    raise NotImplementedError.new("You need to implement FakeArray.map")
   end
   
-  def clone do
-    raise NotImplementedError.new("You need to implement FakeArray.clone")
+  def map! do
+    raise NotImplementedError.new("You need to implement FakeArray.map!")
   end
   
-  def dup do
-    raise NotImplementedError.new("You need to implement FakeArray.dup")
+  def max do
+    raise NotImplementedError.new("You need to implement FakeArray.max")
   end
   
-  def initialize_dup do
-    raise NotImplementedError.new("You need to implement FakeArray.initialize_dup")
+  def max_by do
+    raise NotImplementedError.new("You need to implement FakeArray.max_by")
   end
   
-  def initialize_clone do
-    raise NotImplementedError.new("You need to implement FakeArray.initialize_clone")
+  def member? do
+    raise NotImplementedError.new("You need to implement FakeArray.member?")
   end
   
-  def taint do
-    raise NotImplementedError.new("You need to implement FakeArray.taint")
+  def min do
+    raise NotImplementedError.new("You need to implement FakeArray.min")
   end
   
-  def tainted? do
-    raise NotImplementedError.new("You need to implement FakeArray.tainted?")
+  def min_by do
+    raise NotImplementedError.new("You need to implement FakeArray.min_by")
   end
   
-  def untaint do
-    raise NotImplementedError.new("You need to implement FakeArray.untaint")
+  def minmax do
+    raise NotImplementedError.new("You need to implement FakeArray.minmax")
   end
   
-  def untrust do
-    raise NotImplementedError.new("You need to implement FakeArray.untrust")
+  def minmax_by do
+    raise NotImplementedError.new("You need to implement FakeArray.minmax_by")
   end
   
-  def untrusted? do
-    raise NotImplementedError.new("You need to implement FakeArray.untrusted?")
+  def none? do
+    raise NotImplementedError.new("You need to implement FakeArray.none?")
   end
   
-  def trust do
-    raise NotImplementedError.new("You need to implement FakeArray.trust")
+  def one? do
+    raise NotImplementedError.new("You need to implement FakeArray.one?")
   end
   
-  def frozen? do
-    raise NotImplementedError.new("You need to implement FakeArray.frozen?")
+  def pack do
+    raise NotImplementedError.new("You need to implement FakeArray.pack")
   end
   
-  def inspect do
-    raise NotImplementedError.new("You need to implement FakeArray.inspect")
+  def partition do
+    raise NotImplementedError.new("You need to implement FakeArray.partition")
   end
   
-  def methods do
-    raise NotImplementedError.new("You need to implement FakeArray.methods")
+  def permutation do
+    raise NotImplementedError.new("You need to implement FakeArray.permutation")
   end
   
-  def singleton_methods do
-    raise NotImplementedError.new("You need to implement FakeArray.singleton_methods")
+  def pop do
+    raise NotImplementedError.new("You need to implement FakeArray.pop")
   end
   
-  def protected_methods do
-    raise NotImplementedError.new("You need to implement FakeArray.protected_methods")
+  def product do
+    raise NotImplementedError.new("You need to implement FakeArray.product")
   end
   
-  def private_methods do
-    raise NotImplementedError.new("You need to implement FakeArray.private_methods")
+  def push do
+    raise NotImplementedError.new("You need to implement FakeArray.push")
   end
   
-  def public_methods do
-    raise NotImplementedError.new("You need to implement FakeArray.public_methods")
+  def rassoc do
+    raise NotImplementedError.new("You need to implement FakeArray.rassoc")
   end
   
-  def instance_variables do
-    raise NotImplementedError.new("You need to implement FakeArray.instance_variables")
+  def reduce do
+    raise NotImplementedError.new("You need to implement FakeArray.reduce")
   end
   
-  def instance_variable_get do
-    raise NotImplementedError.new("You need to implement FakeArray.instance_variable_get")
+  def reject do
+    raise NotImplementedError.new("You need to implement FakeArray.reject")
   end
   
-  def instance_variable_set do
-    raise NotImplementedError.new("You need to implement FakeArray.instance_variable_set")
+  def reject! do
+    raise NotImplementedError.new("You need to implement FakeArray.reject!")
   end
   
-  def instance_variable_defined? do
-    raise NotImplementedError.new("You need to implement FakeArray.instance_variable_defined?")
+  def repeated_combination do
+    raise NotImplementedError.new("You need to implement FakeArray.repeated_combination")
   end
   
-  def instance_of? do
-    raise NotImplementedError.new("You need to implement FakeArray.instance_of?")
+  def repeated_permutation do
+    raise NotImplementedError.new("You need to implement FakeArray.repeated_permutation")
   end
   
-  def kind_of? do
-    raise NotImplementedError.new("You need to implement FakeArray.kind_of?")
+  def replace do
+    raise NotImplementedError.new("You need to implement FakeArray.replace")
   end
   
-  def is_a? do
-    raise NotImplementedError.new("You need to implement FakeArray.is_a?")
+  def reverse do
+    raise NotImplementedError.new("You need to implement FakeArray.reverse")
   end
   
-  def tap do
-    raise NotImplementedError.new("You need to implement FakeArray.tap")
+  def reverse! do
+    raise NotImplementedError.new("You need to implement FakeArray.reverse!")
   end
   
-  def send do
-    raise NotImplementedError.new("You need to implement FakeArray.send")
+  def reverse_each do
+    raise NotImplementedError.new("You need to implement FakeArray.reverse_each")
   end
   
-  def public_send do
-    raise NotImplementedError.new("You need to implement FakeArray.public_send")
+  def rindex do
+    raise NotImplementedError.new("You need to implement FakeArray.rindex")
   end
   
-  def respond_to? do
-    raise NotImplementedError.new("You need to implement FakeArray.respond_to?")
+  def rotate do
+    raise NotImplementedError.new("You need to implement FakeArray.rotate")
   end
   
-  def respond_to_missing? do
-    raise NotImplementedError.new("You need to implement FakeArray.respond_to_missing?")
+  def rotate! do
+    raise NotImplementedError.new("You need to implement FakeArray.rotate!")
   end
   
-  def extend do
-    raise NotImplementedError.new("You need to implement FakeArray.extend")
+  def sample do
+    raise NotImplementedError.new("You need to implement FakeArray.sample")
   end
   
-  def display do
-    raise NotImplementedError.new("You need to implement FakeArray.display")
+  def select do
+    raise NotImplementedError.new("You need to implement FakeArray.select")
   end
   
-  def method do
-    raise NotImplementedError.new("You need to implement FakeArray.method")
+  def select! do
+    raise NotImplementedError.new("You need to implement FakeArray.select!")
   end
   
-  def public_method do
-    raise NotImplementedError.new("You need to implement FakeArray.public_method")
+  def shift do
+    raise NotImplementedError.new("You need to implement FakeArray.shift")
   end
   
-  def define_singleton_method do
-    raise NotImplementedError.new("You need to implement FakeArray.define_singleton_method")
+  def shuffle do
+    raise NotImplementedError.new("You need to implement FakeArray.shuffle")
   end
   
-  def object_id do
-    raise NotImplementedError.new("You need to implement FakeArray.object_id")
+  def shuffle! do
+    raise NotImplementedError.new("You need to implement FakeArray.shuffle!")
   end
   
-  def to_enum do
-    raise NotImplementedError.new("You need to implement FakeArray.to_enum")
+  def size do
+    raise NotImplementedError.new("You need to implement FakeArray.size")
   end
   
-  def enum_for do
-    raise NotImplementedError.new("You need to implement FakeArray.enum_for")
+  def slice do
+    raise NotImplementedError.new("You need to implement FakeArray.slice")
   end
   
-  def equal? do
-    raise NotImplementedError.new("You need to implement FakeArray.equal?")
+  def slice! do
+    raise NotImplementedError.new("You need to implement FakeArray.slice!")
   end
   
-  def ! do
-    raise NotImplementedError.new("You need to implement FakeArray.!")
+  def slice_before do
+    raise NotImplementedError.new("You need to implement FakeArray.slice_before")
   end
   
-  def != do
-    raise NotImplementedError.new("You need to implement FakeArray.!=")
+  def sort do
+    raise NotImplementedError.new("You need to implement FakeArray.sort")
   end
   
-  def instance_eval do
-    raise NotImplementedError.new("You need to implement FakeArray.instance_eval")
+  def sort! do
+    raise NotImplementedError.new("You need to implement FakeArray.sort!")
   end
   
-  def instance_exec do
-    raise NotImplementedError.new("You need to implement FakeArray.instance_exec")
+  def sort_by do
+    raise NotImplementedError.new("You need to implement FakeArray.sort_by")
   end
   
-  def __send__ do
-    raise NotImplementedError.new("You need to implement FakeArray.__send__")
+  def sort_by! do
+    raise NotImplementedError.new("You need to implement FakeArray.sort_by!")
   end
   
-  def __id__ do
-    raise NotImplementedError.new("You need to implement FakeArray.__id__")
+  def take do
+    raise NotImplementedError.new("You need to implement FakeArray.take")
+  end
+  
+  def take_while do
+    raise NotImplementedError.new("You need to implement FakeArray.take_while")
+  end
+  
+  def to_a do
+    raise NotImplementedError.new("You need to implement FakeArray.to_a")
+  end
+  
+  def to_ary do
+    raise NotImplementedError.new("You need to implement FakeArray.to_ary")
+  end
+  
+  def transpose do
+    raise NotImplementedError.new("You need to implement FakeArray.transpose")
+  end
+  
+  def uniq do
+    raise NotImplementedError.new("You need to implement FakeArray.uniq")
+  end
+  
+  def uniq! do
+    raise NotImplementedError.new("You need to implement FakeArray.uniq!")
+  end
+  
+  def unshift do
+    raise NotImplementedError.new("You need to implement FakeArray.unshift")
+  end
+  
+  def values_at do
+    raise NotImplementedError.new("You need to implement FakeArray.values_at")
+  end
+  
+  def zip do
+    raise NotImplementedError.new("You need to implement FakeArray.zip")
+  end
+  
+  def | do
+    raise NotImplementedError.new("You need to implement FakeArray.|")
   end
   
 
